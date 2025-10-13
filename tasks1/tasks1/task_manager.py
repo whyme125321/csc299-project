@@ -20,7 +20,7 @@ def add_task(description):
     tasks = load_tasks()
     tasks.append({"description": description})
     save_tasks(tasks)
-    print(f"✅ Task added: {description}")
+    print(f" Task added: {description}")
 
 # List all tasks
 def list_tasks():
