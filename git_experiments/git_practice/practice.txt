@@ -1,2 +1,4 @@
 this is the original line.
 this is another line.
+
+Added a new line for diff/patch practice.

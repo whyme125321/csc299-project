@@ -1,0 +1,12 @@
+diff --git a/git_experiments/git_practice/practice.txt b/git_experiments/git_practice/practice.txt
+index d916215..7b50de5 100644
+--- a/git_experiments/git_practice/practice.txt
++++ b/git_experiments/git_practice/practice.txt
+@@ -1,2 +1,4 @@
+ this is the original line.
+-this is another line.
+\ No newline at end of file
++this is another line.
++
++Added a new line for diff/patch practice.
+\ No newline at end of file
