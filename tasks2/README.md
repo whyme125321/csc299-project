@@ -1,13 +1,14 @@
-# tasks2
+# Tasks2 – Iterated Prototype
 
 ## Overview
-This is the second prototype of my Task Management System for CSC 299.
+This version builds upon **tasks1** and introduces improved structure and features for the task management system.  
+It focuses on cleaner JSON storage, better command organization, and preparation for pytest integration.
 
-### Features
-- Add, list, search, and delete tasks  
-- Supports priorities and due dates  
-- Stores data in JSON (`tasks.json`)
+## Features
+- Refactored task add/list/search functionality  
+- Modularized Python code for easier testing later  
+- Improved file handling and data persistence  
 
-### How to Run
+## How to Run
 ```bash
-python3 task_manager.py
+python tasks2.py
