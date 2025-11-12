@@ -1,17 +1,16 @@
-# tasks3
+# Tasks3 – Pytest and UV Integration
 
 ## Overview
-This is the third milestone of my CSC-299 project.  
-It converts my task manager into a Python package managed with **uv** and adds automated testing with **pytest**.
+This version builds upon **tasks2** by introducing a **Python package structure**, **pytest tests**, and **uv** for environment management.  
+It begins integrating automated testing and prepares for more complex functionality in later stages.
 
 ## Features
-- Add, list, search, and delete tasks
-- Tasks stored in a JSON file
-- Command-line interface
-- Two automated tests using pytest (`test_save_and_load.py` and `test_search_tasks.py`)
+- Converted project into a Python package (`src/` and `tests/` folders)  
+- Added `pytest` testing framework  
+- Verified setup using `uv run pytest`  
+- Ready for future AI and PKMS integration  
 
 ## How to Run
-Run the program interactively:
 ```bash
 uv run tasks3
 
