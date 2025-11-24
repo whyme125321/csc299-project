@@ -1,0 +1,19 @@
+[project]
+name = "final-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ankedo Daveed", email = "ankdaveed@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = ["click", "openai"]
+
+
+
+[project.scripts]
+final_system = "final_system.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"
